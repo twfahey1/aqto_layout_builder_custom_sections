@@ -9,7 +9,7 @@ use Drupal\Core\Layout\LayoutDefault;
  *
  * @Layout(
  *   id = "aqto_five_column_layout",
- *   label = @Translation("AQTO 5 Column Layout"),
+ *   label = @Translation("Aqto 5 column"),
  *   category = @Translation("AQTO Custom Layouts"),
  *   template = "templates/aqto-five-column-layout",
  *   regions = {

@@ -9,7 +9,7 @@ use Drupal\Core\Layout\LayoutDefault;
  *
  * @Layout(
  *   id = "aqto_ten_column_layout",
- *   label = @Translation("AQTO 10 Column Layout"),
+ *   label = @Translation("Aqto 10 column"),
  *   category = @Translation("AQTO Layouts"),
  *   template = "templates/aqto-ten-column-layout",
  *   library = "aqto_layout_builder_custom_sections/aqto_layout_builder_custom_sections",

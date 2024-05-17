@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *
  * @Layout(
  *   id = "aqto_six_column_layout",
- *   label = @Translation("Aqto 6 Column Layout"),
+ *   label = @Translation("Aqto 6 column"),
  *   category = @Translation("Aqto Layouts"),
  *   template = "templates/aqto-six-column-layout",
  *   regions = {

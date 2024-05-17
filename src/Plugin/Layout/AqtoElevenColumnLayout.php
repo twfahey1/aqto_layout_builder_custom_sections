@@ -9,7 +9,7 @@ use Drupal\Core\Layout\LayoutDefault;
  *
  * @Layout(
  *   id = "aqto_eleven_column_layout",
- *   label = @Translation("AQTO 11 column"),
+ *   label = @Translation("Aqto 11 column"),
  *   category = @Translation("AQTO Layouts"),
  *   weight = 11,
  *   template = "templates/aqto-eleven-column-layout",
