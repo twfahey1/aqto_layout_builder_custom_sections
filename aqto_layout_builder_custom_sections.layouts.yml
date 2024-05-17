@@ -1,0 +1,231 @@
+aqto_five_column_layout:
+  label: 'Five Column Layout'
+  path: templates
+  template: aqto-five-column-layout
+  library: aqto_layout_builder/fivecol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoFiveColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+
+aqto_six_column_layout:
+  label: 'Six Column Layout'
+  path: templates
+  template: aqto-six-column-layout
+  library: aqto_layout_builder/sixcol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoSixColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+
+aqto_seven_column_layout:
+  label: 'Seven Column Layout'
+  path: templates
+  template: aqto-seven-column-layout
+  library: aqto_layout_builder/sevencol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoSevenColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+
+aqto_eight_column_layout:
+  label: 'Eight Column Layout'
+  path: templates
+  template: aqto-eight-column-layout
+  library: aqto_layout_builder/eightcol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoEightColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh, eighth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+    column_8:
+      label: Column 8
+
+aqto_nine_column_layout:
+  label: 'Nine Column Layout'
+  path: templates
+  template: aqto-nine-column-layout
+  library: aqto_layout_builder/ninecol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoNineColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+    column_8:
+      label: Column 8
+    column_9:
+      label: Column 9
+
+aqto_ten_column_layout:
+  label: 'Ten Column Layout'
+  path: templates
+  template: aqto-ten-column-layout
+  library: aqto_layout_builder/tencol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoTenColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+    column_8:
+      label: Column 8
+    column_9:
+      label: Column 9
+    column_10:
+      label: Column 10
+
+aqto_eleven_column_layout:
+  label: 'Eleven Column Layout'
+  path: templates
+  template: aqto-eleven-column-layout
+  library: aqto_layout_builder/elevencol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoElevenColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+    column_8:
+      label: Column 8
+    column_9:
+      label: Column 9
+    column_10:
+      label: Column 10
+    column_11:
+      label: Column 11
+
+aqto_twelve_column_layout:
+  label: 'Twelve Column Layout'
+  path: templates
+  template: aqto-twelve-column-layout
+  library: aqto_layout_builder/twelvecol_section
+  class: '\Drupal\aqto_layout_builder_custom_sections\Plugin\Layout\AqtoTwelveColumnLayout'
+  category: 'Aqto Layouts'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth]
+  regions:
+    column_1:
+      label: Column 1
+    column_2:
+      label: Column 2
+    column_3:
+      label: Column 3
+    column_4:
+      label: Column 4
+    column_5:
+      label: Column 5
+    column_6:
+      label: Column 6
+    column_7:
+      label: Column 7
+    column_8:
+      label: Column 8
+    column_9:
+      label: Column 9
+    column_10:
+      label: Column 10
+    column_11:
+      label: Column 11
+    column_12:
+      label: Column 12

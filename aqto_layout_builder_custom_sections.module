@@ -6,3 +6,10 @@
 function aqto_layout_builder_custom_sections_theme_suggestions_layout__aqto_five_column_layout_alter(array &$suggestions, array $variables) {
   // Add custom theme suggestions here if needed.
 }
+
+// Implements hook_item_list__layouts_alter()
+function aqto_layout_builder_custom_sections_item_list_alter(array &$variables) {
+  // Add custom logic here if needed.
+  // Lets arrange things
+  $layouts = $variables['items'];
+}

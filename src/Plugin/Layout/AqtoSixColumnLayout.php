@@ -8,33 +8,6 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Provides a 'aqto_six_column_layout' layout.
- *
- * @Layout(
- *   id = "aqto_six_column_layout",
- *   label = @Translation("Aqto 6 column"),
- *   category = @Translation("Aqto Layouts"),
- *   template = "templates/aqto-six-column-layout",
- *   regions = {
- *     "column_1" = {
- *       "label" = @Translation("Column 1"),
- *     },
- *     "column_2" = {
- *       "label" = @Translation("Column 2"),
- *     },
- *     "column_3" = {
- *       "label" = @Translation("Column 3"),
- *     },
- *     "column_4" = {
- *       "label" = @Translation("Column 4"),
- *     },
- *     "column_5" = {
- *       "label" = @Translation("Column 5"),
- *     },
- *     "column_6" = {
- *       "label" = @Translation("Column 6"),
- *     }
- *   }
- * )
  */
 class AqtoSixColumnLayout extends LayoutDefault implements ContainerFactoryPluginInterface {
 
