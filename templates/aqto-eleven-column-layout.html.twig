@@ -1,0 +1,7 @@
+<div class="grid grid-cols-11 gap-4">
+  {% for i in 1..11 %}
+    <div class="col-span-1">
+      {{ content['column_' ~ i] }}
+    </div>
+  {% endfor %}
+</div>
