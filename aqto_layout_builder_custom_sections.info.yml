@@ -1,0 +1,7 @@
+name: 'AQTO Layout Builder Custom Sections'
+type: module
+description: 'Provides custom Layout Builder Sections including a 5 column layout.'
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - layout_builder

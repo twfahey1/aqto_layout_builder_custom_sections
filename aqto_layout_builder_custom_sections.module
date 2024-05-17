@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() to provide custom theme suggestions.
+ */
+function aqto_layout_builder_custom_sections_theme_suggestions_layout__aqto_five_column_layout_alter(array &$suggestions, array $variables) {
+  // Add custom theme suggestions here if needed.
+}
